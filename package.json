@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm run build --workspaces"
+    "heroku-postbuild": "npm install && npm run build --workspaces"
   },
   "private": true,
   "workspaces": [
